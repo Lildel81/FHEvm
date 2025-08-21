@@ -85,46 +85,46 @@ Use it to call functions manually against your contract.
 
 ### Use the provided scripts
 
-**Debug election state**
+## **Debug election state**
 ```bash
 VOTING_CONTRACT_ADDRESS=0xYourContract npx hardhat run scripts/debug_script.ts --network sepolia
 ```
-## Example Output
+### Example Output
 <img width="521" height="125" alt="image" src="https://github.com/user-attachments/assets/ed896463-82d8-4fce-9b92-440954383311" />
 
 
-**Run one vote → end → request decryption**
+## **Run one vote → end → request decryption**
 ```bash
 VOTING_CONTRACT_ADDRESS=0xYourContract CANDIDATE=0 DURATION=600 npx hardhat run scripts/vote_and_decrypt.ts --network sepolia
 ```
 
-## Example Output
+### Example Output
 <img width="924" height="147" alt="image" src="https://github.com/user-attachments/assets/eef46276-5925-4b58-91ff-33e81caa273d" />
 
 
-**View encrypted balance**
+## **View encrypted balance**
 ```bash
 VOTING_CONTRACT_ADDRESS=0xYourContract node scripts/viewEncryptedBalance.mjs
 ```
 
-## Example Output
+### Example Output
 <img width="1099" height="109" alt="image" src="https://github.com/user-attachments/assets/8f19deb0-5da0-4033-9d4f-d49d66e3f034" />
 
 
-**View decrypted balance**
+## **View decrypted balance**
 ```bash
 VOTING_CONTRACT_ADDRESS=0xYourContract node scripts/decBalance.mjs
 ```
 
-## Example Output
+### Example Output
 <img width="1006" height="113" alt="image" src="https://github.com/user-attachments/assets/9cb6da5e-05dd-412b-886b-e1ba773f50f1" />
 
 
-**Mint demo tokens**
+## **Mint demo tokens**
 ```bash
 VOTING_CONTRACT_ADDRESS=0xYourContract node scripts/mintTokens.mjs
 ```
-
+### Example Output
 <img width="1009" height="89" alt="image" src="https://github.com/user-attachments/assets/2257f700-0332-4f83-aff8-3abb5a514c38" />
 
 
@@ -140,7 +140,7 @@ Calling `requestDecryption()` on Sepolia goes through Zama’s **Gateway** and i
 execution reverted: sender isn't allowed
 ```
 
-## Example Output
+### Example Output
 <img width="922" height="200" alt="image" src="https://github.com/user-attachments/assets/3abb78c7-a60c-4ae5-b26e-4ff52ae68bb0" />
 
 
