@@ -89,7 +89,7 @@ Use it to call functions manually against your contract.
 ```bash
 VOTING_CONTRACT_ADDRESS=0xYourContract npx hardhat run scripts/debug_script.ts --network sepolia
 ```
-
+## Example Output
 <img width="521" height="125" alt="image" src="https://github.com/user-attachments/assets/ed896463-82d8-4fce-9b92-440954383311" />
 
 
@@ -98,6 +98,7 @@ VOTING_CONTRACT_ADDRESS=0xYourContract npx hardhat run scripts/debug_script.ts -
 VOTING_CONTRACT_ADDRESS=0xYourContract CANDIDATE=0 DURATION=600 npx hardhat run scripts/vote_and_decrypt.ts --network sepolia
 ```
 
+## Example Output
 <img width="924" height="147" alt="image" src="https://github.com/user-attachments/assets/eef46276-5925-4b58-91ff-33e81caa273d" />
 
 
@@ -106,6 +107,7 @@ VOTING_CONTRACT_ADDRESS=0xYourContract CANDIDATE=0 DURATION=600 npx hardhat run 
 VOTING_CONTRACT_ADDRESS=0xYourContract node scripts/viewEncryptedBalance.mjs
 ```
 
+## Example Output
 <img width="1099" height="109" alt="image" src="https://github.com/user-attachments/assets/8f19deb0-5da0-4033-9d4f-d49d66e3f034" />
 
 
@@ -114,6 +116,7 @@ VOTING_CONTRACT_ADDRESS=0xYourContract node scripts/viewEncryptedBalance.mjs
 VOTING_CONTRACT_ADDRESS=0xYourContract node scripts/decBalance.mjs
 ```
 
+## Example Output
 <img width="1006" height="113" alt="image" src="https://github.com/user-attachments/assets/9cb6da5e-05dd-412b-886b-e1ba773f50f1" />
 
 
@@ -137,6 +140,7 @@ Calling `requestDecryption()` on Sepolia goes through Zama’s **Gateway** and i
 execution reverted: sender isn't allowed
 ```
 
+## Example Output
 <img width="922" height="200" alt="image" src="https://github.com/user-attachments/assets/3abb78c7-a60c-4ae5-b26e-4ff52ae68bb0" />
 
 
